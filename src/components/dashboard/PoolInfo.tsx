@@ -14,7 +14,7 @@ const PoolInfo = () => {
   };
   
   return (
-    <Card className="info-card">
+    <Card className="info-card pool-card">
       <CardHeader className="pb-2">
         <CardTitle className="text-lg font-medium text-morandi-text">
           {t("poolInfo")}

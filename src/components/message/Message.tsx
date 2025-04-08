@@ -56,7 +56,7 @@ const Message = () => {
     <div className="space-y-4 pb-20 h-full flex flex-col">
       <h2 className="text-xl font-medium mb-2">{t("message")}</h2>
       
-      <Card className="info-card flex-1 flex flex-col">
+      <Card className="info-card message-card flex-1 flex flex-col">
         <CardHeader className="pb-2 flex flex-row items-center justify-between">
           <CardTitle className="text-lg font-medium text-morandi-text">
             {t("message")}

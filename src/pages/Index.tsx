@@ -30,8 +30,8 @@ const Index = () => {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <div className="min-h-screen bg-morandi-bg">
-          <div className="max-w-md mx-auto min-h-screen flex flex-col">
+        <div className="min-h-screen bg-morandi-bg bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNmOGY4ZjgiPjwvcmVjdD4KPC9zdmc+')] backdrop-blur-sm">
+          <div className="max-w-md mx-auto min-h-screen flex flex-col backdrop-blur-xl bg-white/30 dark:bg-black/10">
             <Header />
             <main className="flex-1 p-4">
               {renderActiveSection()}

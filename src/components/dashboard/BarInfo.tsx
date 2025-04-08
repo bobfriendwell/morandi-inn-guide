@@ -14,7 +14,7 @@ const BarInfo = () => {
   };
   
   return (
-    <Card className="info-card">
+    <Card className="info-card bar-card">
       <CardHeader className="pb-2 flex flex-row items-center justify-between">
         <CardTitle className="text-lg font-medium text-morandi-text">
           {t("barInfo")}

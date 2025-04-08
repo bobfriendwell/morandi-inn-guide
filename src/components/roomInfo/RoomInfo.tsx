@@ -26,7 +26,7 @@ const RoomInfo = () => {
     <div className="space-y-4 pb-20">
       <h2 className="text-xl font-medium mb-2">{t("roomInfo")}</h2>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2">
             <Wifi size={18} />
@@ -40,7 +40,7 @@ const RoomInfo = () => {
         </CardContent>
       </Card>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2">
             <Coffee size={18} />
@@ -54,7 +54,7 @@ const RoomInfo = () => {
         </CardContent>
       </Card>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2">
             <Clock size={18} />
@@ -68,7 +68,7 @@ const RoomInfo = () => {
         </CardContent>
       </Card>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2">
             <PhoneCall size={18} />
@@ -82,7 +82,7 @@ const RoomInfo = () => {
         </CardContent>
       </Card>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2">
             <PhoneForwarded size={18} />
@@ -101,7 +101,7 @@ const RoomInfo = () => {
         </CardContent>
       </Card>
       
-      <Card className="info-card">
+      <Card className="info-card room-card">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-medium text-morandi-text flex items-center gap-2 text-red-500">
             <PhoneCall size={18} className="text-red-500" />

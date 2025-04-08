@@ -87,7 +87,40 @@
   }
   
   .info-card {
-    @apply glass-card p-4 rounded-2xl animate-fade-in;
+    @apply p-4 rounded-2xl animate-fade-in;
+  }
+  
+  /* Card color variations */
+  .pool-card {
+    @apply bg-gradient-to-br from-blue-50/80 to-blue-100/80 backdrop-blur-md border border-blue-100/50;
+  }
+  
+  .bar-card {
+    @apply bg-gradient-to-br from-amber-50/80 to-amber-100/80 backdrop-blur-md border border-amber-100/50;
+  }
+  
+  .vip-card {
+    @apply bg-gradient-to-br from-purple-50/80 to-purple-100/80 backdrop-blur-md border border-purple-100/50;
+  }
+  
+  .restaurant-card {
+    @apply bg-gradient-to-br from-red-50/80 to-red-100/80 backdrop-blur-md border border-red-100/50;
+  }
+  
+  .movie-card {
+    @apply bg-gradient-to-br from-indigo-50/80 to-indigo-100/80 backdrop-blur-md border border-indigo-100/50;
+  }
+  
+  .activities-card {
+    @apply bg-gradient-to-br from-green-50/80 to-green-100/80 backdrop-blur-md border border-green-100/50;
+  }
+  
+  .message-card {
+    @apply bg-gradient-to-br from-teal-50/80 to-teal-100/80 backdrop-blur-md border border-teal-100/50;
+  }
+  
+  .room-card {
+    @apply bg-gradient-to-br from-gray-50/80 to-gray-100/80 backdrop-blur-md border border-gray-100/50;
   }
   
   .nav-item {
